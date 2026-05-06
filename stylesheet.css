@@ -26,9 +26,10 @@ body {
     font-size: 24px;
     font-weight: bold;
     width: 500px;
+    
     color: #f9faf8;
 
-    margin-right: 600px;
+    
 }
 
 .a,.b,.c{
@@ -48,6 +49,7 @@ body {
 
 .des {
     font-size: 18px;
+    flex: 1;
 
 }
 
@@ -62,10 +64,9 @@ button {
 .img {
     
 
-    width: 450px;
-    
-    object-fit: cover;
-    border: radius 2px;
+    width: 400px;
+    height: auto;
+    border-radius: 6px;
 
 
 }
@@ -82,10 +83,12 @@ button {
 .hero-2 {
     display: flex;
     justify-content: space-between;
+    
+    align-items: center;
 }
 
 .description {
-    width: 400px;
+    max-width: 400px;
     font-size: 20px;
     margin-bottom: 20px;
     font-family: Roboto, Arial;
@@ -96,6 +99,8 @@ button {
 .hero-image {
     margin-top: 40px;
     border-radius: 2px;
+    display: flex;
+    justify-content: flex-end;
 
 }
 
